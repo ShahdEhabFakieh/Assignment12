@@ -1,0 +1,170 @@
+:root {
+   --off-canvas-width: 300px;
+ }
+
+#Home{
+   background-image: url('../images/d57a50e2-28c1-435f-9ff7-a8550713d877.jpg');
+   background-size: 100% 100%;
+   background-repeat: no-repeat;
+   height: 100vh;
+}
+
+
+ .open_Tab{
+   height: 100vh;
+   /*top: 150px;*/
+   left: 0;
+   z-index: 9999999999;
+   display: flex;
+   align-items: flex-start;
+   white-space: nowrap;
+
+ }
+
+ .open_box{
+   /*padding: 10px;*/
+   background-color: black;
+   height: 100vh;
+   position: relative;
+ }
+
+ .open_box .close_icon i{
+   top: 0;
+   right: 1px;
+   padding: 15px;
+   font-size: 30px;
+   position: absolute;
+   background-color: transparent;
+ }
+
+ .open_Tab i{
+   background-color: black;
+   color: white;
+   padding: 10px;
+   cursor: pointer;
+   
+ }
+
+ .open_box ul li {
+   font-size: 25px;
+   margin: 30px;
+   text-align: start;
+   
+ }
+ul li a{
+   text-decoration: none;
+   color: white;
+   font-size: larger;
+   cursor: pointer;
+}
+ul li a:hover{
+   color: brown;
+   transition: all 0.2s ease;
+}
+
+.btn_open{
+   font-size: 32px;
+   font-weight: 600;
+   margin-top: 200px;
+}
+h1{
+   font-size: 70px;
+   padding-top: 100px;
+}
+
+
+
+
+/*********second page******/
+.accordion {
+   width: 100%;
+   padding-top: 100px;
+   padding-bottom: 100px;
+ }
+ 
+ .accordion-header {
+   background-color: #d67070;
+   padding: 10px;
+   cursor: pointer;
+ }
+ 
+ .accordion-content {
+   display: none;
+   padding: 10px;
+   background-color: #dad6d6;
+ }
+
+
+ .days{
+   border: 5px solid brown;
+   margin-top: 100px;
+   font-size: 32px;
+   height: 100px;
+   font-family: 400;
+ }
+
+ .hr{
+   border: 2px solid beige;
+   margin-top: 100px;
+   font-size: 32px;
+   height: 100px;
+   font-family: 400;
+
+ }
+
+ .mn{
+   border: 2px solid rgb(88, 88, 33);
+   margin-top: 100px;
+   font-size: 32px;
+   height: 100px;
+   font-family: 400;
+
+ }
+
+ .sec{
+   border: 2px solid rgb(19, 19, 1);
+   margin-top: 100px;
+   font-size: 32px;
+   height: 100px;
+   font-family: 400;
+ }
+
+ /*******third page*******/
+ #third_page{
+   background-image: url('../images/depositphotos_80897028-stock-photo-join-us-word-on-the.jpg');
+   height: 50vh;
+   background-size: 100% 100%;
+   background-repeat: no-repeat;
+   text-align: center;
+ }
+
+.social_icons{
+   margin-top: 50px;
+
+}
+ .social_icons .social_icn{
+   padding: 10px;
+   margin-left: 30px;
+   border: 1px solid black;
+   cursor: pointer;
+ }
+ .social_icons .social_icn:hover{
+   color: white;
+   background-color: brown;
+ }
+
+ textarea{
+   height: 200px;
+ }
+ #count{
+   color: #D62E33;
+   font-weight: 400;
+ }
+ .btns{
+   float: right;
+   background-color: #D62E33;
+   color: #fff;
+   padding: 10px 20px;
+   border: 1px solid transparent;
+   text-transform: uppercase;
+ }
